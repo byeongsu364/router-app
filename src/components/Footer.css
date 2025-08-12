@@ -1,7 +1,33 @@
-footer {
+.footer-wrap {
+    position: relative;
+    width: 100%;
     background-color: #000;
+    color: #fff;
+    padding: 20px;
+    bottom: -350px;
 }
 
-footer * {
+.footer-wrap h2 {
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer-wrap .sns-list {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.footer-wrap .sns-list li a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     color: #fff;
+}
+
+.footer-wrap .sns-list img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
 }

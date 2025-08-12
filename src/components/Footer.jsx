@@ -3,8 +3,7 @@ import './Footer.css'
 import { snsLinks } from '../data/sns'
 const Footer = () => {
     return (
-        <section>
-            <footer>
+            <footer className='footer-wrap'>
                 <h2>title</h2>
                 <ul className="sns-list">
                     {snsLinks.map((sns) => (
@@ -17,7 +16,6 @@ const Footer = () => {
                     ))}
                 </ul>
             </footer>
-        </section>
     )
 }
 
