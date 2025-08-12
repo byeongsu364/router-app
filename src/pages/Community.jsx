@@ -43,7 +43,7 @@ const Community = () => {
 
     return (
         <section>
-            <h1>Community 페이지</h1>
+            <h1>Community</h1>
             <ul className='list'>
                 {posts.map((c)=>(
                 <li key={c.id}>

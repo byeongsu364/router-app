@@ -8,22 +8,22 @@ import Notfound from './pages/Notfound'
 import BoardDetail from './pages/BoardDetail'
 import Community from './pages/Community'
 import CommunityDetail from './pages/CommunityDetail'
+import Footer from './components/Footer'
 function App() {
 
   return (
     <div>
-      <Nav/>
+      <Nav />
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/board' element={<Board/>}/>
-        <Route path='/board/:id' element={<BoardDetail/>}/>
-        <Route path='/community' element={<Community/>}/>
-        <Route path='/community/:id' element={<CommunityDetail/>}/>
-        <Route path='*' element={<Notfound/>}/>
-
+        <Route path='/' element={<Home/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/board' element={<Board/>} />
+        <Route path='/board/:id' element={<BoardDetail/>} />
+        <Route path='/community' element={<Community/>} />
+        <Route path='/community/:id' element={<CommunityDetail/>} />
+        <Route path='*' element={<Notfound/>} />
       </Routes>
-
+      <Footer />
     </div>
   )
 }
