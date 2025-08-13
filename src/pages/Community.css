@@ -1,0 +1,45 @@
+.Community .list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.Community .list li {
+    width: 240px;
+}
+
+.Community .list li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    height: 140px;
+    padding: 24px 16px;
+    background: #eee;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+}
+
+.Community .list .num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    background: #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.Community .list .dsc {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+}

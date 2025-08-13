@@ -10,7 +10,7 @@ const Footer = () => {
                         <li key={sns.id}>
                             <a href={sns.url} target='_blank'>
                                 <img src={sns.icon} alt={sns.name} />
-                                <span>{sns.handle}</span>
+                                <span>{sns.name}</span>
                             </a>
                         </li>
                     ))}

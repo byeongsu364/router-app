@@ -5,12 +5,15 @@
     color: #fff;
     padding: 20px;
     bottom: -350px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-wrap h2 {
     margin-bottom: 12px;
-    font-size: 18px;
+    font-size: 30pxpx;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .footer-wrap .sns-list {
@@ -21,13 +24,16 @@
 
 .footer-wrap .sns-list li a {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 8px;
+    font-size: 10px;
     color: #fff;
 }
 
 .footer-wrap .sns-list img {
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     object-fit: contain;
+    gap: 5px;
 }
