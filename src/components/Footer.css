@@ -4,14 +4,14 @@
     background-color: #000;
     color: #fff;
     padding: 20px;
-    bottom: -350px;
+    bottom: -500px;
     display: flex;
     justify-content: space-between;
 }
 
 .footer-wrap h2 {
     margin-bottom: 12px;
-    font-size: 30pxpx;
+    font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -35,5 +35,4 @@
     width: 40px;
     height: 40px;
     object-fit: contain;
-    gap: 5px;
 }

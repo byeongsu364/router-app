@@ -72,3 +72,19 @@
 .btn-row button.secondary:hover {
     background: #e5e7eb;
 }
+
+@media (max-width: 560px) {
+    .detail-card {
+        margin: 20px 12px;
+        padding: 16px;
+        gap: 16px;
+    }
+
+    .detail-meta {
+        grid-template-columns: 1fr;
+    }
+
+    .detail-card h1 {
+        font-size: 20px;
+    }
+}

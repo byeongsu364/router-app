@@ -11,7 +11,7 @@ const Board = () => {
 
     return (
         <section>
-            <h1>게시글</h1>
+            <h1>Board</h1>
             <ul className='list'>
                 {dummy.map((b)=>(
                 <li key={b.id}>

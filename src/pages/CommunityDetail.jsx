@@ -11,7 +11,7 @@ const CommunityDetail = () => {
 
     return (
         <section className="detail-card">
-            <h1>상세보기</h1>
+            <h1>Community Detail</h1>
             <div className="detail-meta">
                 <p><span className="label">현재글 ID :</span> <span className="value">{id}</span></p>
                 <p><span className="label">제목 :</span> <span className="value">{data?.subject ?? '정보 없음'}</span></p>
