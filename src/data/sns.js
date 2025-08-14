@@ -1,6 +1,6 @@
 import icon1 from "../assets/icon1.png";
 import icon2 from "../assets/icon2.png";
-import icon3 from "../assets/icon3.png";
+import icon4 from "../assets/icon4.png";
 
 export const snsLinks = [
     {
@@ -24,7 +24,7 @@ export const snsLinks = [
         name: "profile",
         handle: "profile",
         url: "https://fcgg.kr/%EC%A0%84%EC%A0%81%EA%B2%80%EC%83%89/%EA%B5%AC%EB%A6%AC%EC%9D%BC%EB%93%B1/%EA%B3%B5%EC%8B%9D%EA%B2%BD%EA%B8%B0",
-        icon: icon3,        // 아이콘3 사용
+        icon: icon4,        // 아이콘3 사용
         color: "#000000",
     },
 ];

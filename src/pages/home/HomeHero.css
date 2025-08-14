@@ -1,0 +1,42 @@
+.homeHero .swiper-slide a {
+    display: block;
+}
+
+.homeHero .swiper-slide a figure {
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeHero .t-wrap {
+    background-color: #5a5a5a41;
+    padding: 30px;
+    color: #fff;
+    opacity: 0;
+    transition: .3s .3s ease-in-out;
+}
+
+.homeHero .t-wrap h2 {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.homeHero .t-wrap p {
+    text-align: center;
+}
+
+.homeHero .swiper-slide.swiper-slide-active .t-wrap {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.swiper-pagination-bullet {
+    background-color: #fff;
+    border-radius: 0;
+    width: 30px;
+    height: 5px;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import AboutHero from './about/AboutHero';
 
 const About = () => {
 
@@ -15,6 +16,7 @@ const About = () => {
     return (
         <section>
             <h1>About</h1>
+            <AboutHero />
             <ul className='list'>
                 {infoList.map((a)=>(
                 <li key={a.id}>
