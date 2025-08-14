@@ -2,9 +2,9 @@ import React from 'react'
 import { aboutSlides } from '../../data/aboutSlide'
 
 import { Swiper, SwiperSlide } from 'swiper/react'           // Swiper 컴포넌트
-import { Navigation, Pagination, Autoplay, A11y } from 'swiper/modules' // 필요한 모듈들
-import 'swiper/css'                                          // Swiper 기본 CSS
-import 'swiper/css/navigation'                               // 네비게이션(좌우) CSS
+import { Navigation, Pagination, Autoplay, A11y } from 'swiper/modules'
+import 'swiper/css'
+import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import './AboutHero.css'
 const AboutHero = () => {
@@ -12,7 +12,9 @@ const AboutHero = () => {
         <div className="about-slider-wrap">
             <Swiper
                 slidesPerView={3}
+                loop
                 spaceBetween={30}
+                centeredSlides={true}
                 pagination={{
                     clickable: true,
                 }}
@@ -23,16 +25,15 @@ const AboutHero = () => {
                     const card = (
                         <figure className="slide-card">
                             <div
-                                className="slide-bg"                         // 배경이미지 컨테이너
-                                role="img"                                   // 접근성: 이미지 역할
-                                aria-label={title}                    // 접근성: 대체 텍스트
-                            // 인라인 스타일로 배경이미지 적용
+                                className="slide-bg"
+                                role="img"
+                                aria-label={title}
                             />
 
-                            <div className="slide-overlay" />              {/* 어둡게 오버레이(텍스트 가독성) */}
-                            <figcaption className="slide-caption">         {/* 슬라이드 상단/하단 텍스트 영역 */}
-                                <h2>{title}</h2>                             {/* 제목 */}
-                                <p>{subtitle}</p> {/* 부제목(있을 때만 표시) */}
+                            <div className="slide-overlay" />
+                            <figcaption className="slide-caption">
+                                <h2>{title}</h2>
+                                <p>{subtitle}</p>
                             </figcaption>
                         </figure>
                     )
